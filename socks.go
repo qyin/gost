@@ -142,7 +142,7 @@ func (selector *serverSelector) OnSelected(method uint8, conn net.Conn) (net.Con
 				return nil, err
 			}
 			glog.V(LDEBUG).Infoln(resp)
-			glog.V(LWARNING).Infoln("socks5: proxy authentication required")
+			glog.V(LWARNING).Infoln("socks5: proxy authentication required", conn.RemoteAddr())
 
 			return nil, gosocks5.ErrAuthFailure
 		}

@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"github.com/ginuerzh/gosocks5"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 	"github.com/shadowsocks/shadowsocks-go/shadowsocks"
 	"io"
 	"net"

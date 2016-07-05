@@ -2,7 +2,7 @@ package main
 
 import (
 	"crypto/tls"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 )
 
 const (

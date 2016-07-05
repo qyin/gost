@@ -3,7 +3,7 @@ package main
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 	"io"
 	"net"
 	"net/url"

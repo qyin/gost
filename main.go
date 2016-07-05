@@ -4,7 +4,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 	"os"
 	"sync"
 )

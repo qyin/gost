@@ -3,7 +3,7 @@ package main
 import (
 	//"github.com/ginuerzh/gosocks5"
 	"crypto/tls"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 	"github.com/gorilla/websocket"
 	"net"
 	"net/http"

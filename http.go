@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/base64"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 	"net"
 	"net/http"
 	"net/http/httputil"

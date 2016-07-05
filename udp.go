@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	"github.com/ginuerzh/gosocks5"
-	"github.com/golang/glog"
+	"github.com/qyin/glog"
 	"net"
 	"time"
 )

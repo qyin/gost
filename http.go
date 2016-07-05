@@ -38,7 +38,7 @@ func handleHttpRequest(req *http.Request, conn net.Conn, arg Args) {
 		}
 		glog.V(LDEBUG).Infoln(resp)
 
-		glog.V(LWARNING).Infoln("http: proxy authentication required")
+		glog.V(LWARNING).Infoln("http: proxy authentication required", conn.RemoteAddr())
 		return
 	}
 
